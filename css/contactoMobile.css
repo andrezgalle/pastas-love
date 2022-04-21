@@ -1,0 +1,34 @@
+@media (max-width:1200px) {
+    main h2{
+        font-size: 3.2rem;
+    }
+
+    body{
+        overflow: auto;
+    }
+
+    .form-grid{
+        margin-bottom: 5rem;
+        grid-template-columns: auto;
+        height: auto;
+        width: 100%;
+        padding: 0 0 2rem 0;
+    }
+
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .contenedor-nombre-apellido{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:480px) {
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+}

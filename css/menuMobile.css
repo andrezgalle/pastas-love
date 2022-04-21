@@ -1,0 +1,53 @@
+@media (max-width: 1200px){
+    body{
+        overflow: auto;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .section-menu-grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 2rem 4rem 2rem;
+    }
+    .menu-grid-img img{
+        width: 90%;
+    }
+    .menu-grid-img{
+        align-items: center;
+    }
+    .section-div-icons-menu{
+        justify-content: center;
+        gap: 2rem;
+    }
+    .capa-img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .section-div-icons-menu img{
+        width: 2.5rem;
+    }
+    .menu-grid-texto h2{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .container-menu-button{
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+    .boton-carrito{
+        margin: 0;
+    }
+    .boton-bajar-menu{
+        margin: 0;
+    }
+    footer{
+        margin-top: 0;
+        position: relative;
+    }
+}

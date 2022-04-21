@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+
+    main{
+        text-align: center;
+    }
+    .carrito-container{
+        grid-template-columns: auto;
+    }
+
+    .productos-carrito{
+        text-align: center;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .articulo-carrito{
+        margin:  2rem auto;
+    }
+
+    .encabezados{
+        width: 100%;
+        margin: 4rem 0 0 0;
+    }
+    
+    table{
+        width: 100%;
+        margin: 2rem 0 0 0;
+    }
+
+    .titlee{
+        width: 20rem;
+    }
+    
+    .imgg{
+        width: 25rem;
+        margin-right: 2rem;
+    }
+    
+    .pricee{
+        width: 25rem;
+    }
+
+
+    .botton-reset{
+        margin: 0 0 2rem 0;
+    }
+    
+
+
+}

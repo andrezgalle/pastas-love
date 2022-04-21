@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta's</title>
+    <link rel="icon" href="./assets/icons/pasta.png">
+    <script src="https://kit.fontawesome.com/c9043be8ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/globalmobile.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/contactoMobile.css">
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-link">
+                <a href="./index.html">
+                    <img src="./assets/icons/pasta.png" class="logo" alt="logo-programador">
+                </a>
+                <p>Pasta's</p>
+            </div>
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="./index.html" class="nav-menu-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="./menu.html" class="nav-menu-link">Menú</a></li>
+                <li class="nav-menu-item"><a href="./tienda.html" class="nav-menu-link">Tienda</a></li>
+                <li class="nav-menu-item"><a href="./sobreNosotros.html" class="nav-menu-link">Sobre Nosotros</a></li>
+                <li class="nav-menu-item"><a href="./contacto.html" class="nav-menu-link seleccionado">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="form-grid">
+            <section class="form-grid-form">
+                <form id="form">
+                    <div class="resultado">
+                        <h2>Envianos un mensaje!</h2>
+                        <br>
+                        <div class="contenedor-nombre-apellido">
+                            <div class="contenedor-item-form">
+                                <input type="text" id="name" placeholder="Escribe tu Nombre" name="name" required>
+                            </div>
+
+                            <div class="contenedor-item-form">
+                                <input type="text" id="last" placeholder="Escribe tus Apellidos" name="last" required>
+                            </div>
+                        </div>
+                        <div class="contenedor-item-form">
+                            <input type="email" id="email" placeholder="Escribe tu Email" name="email" required>
+                        </div>
+
+                        <input type="text" name="menssage" id="menssage" placeholder="Escribe tu Mensaje" required> 
+                    </div>
+
+                    <div class="container-button">
+                        <input type="button" id="button" value="Enviar Mensaje" >
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Todos los Derechos Reservados &copy;</h3>
+        <h4>Andrés Gallego Tovar</h4>
+    </footer>
+
+    <script src="./js/animacion.js"></script>
+    <script src="./js/validarContacto.js"></script>
+</body>
+</html>

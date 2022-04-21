@@ -1,0 +1,27 @@
+@media (max-width:1200px) {
+    .container-misión{
+        width: 98%;
+        grid-template-columns: auto;
+        padding: 0;
+        margin-top: 7rem;
+    }
+
+    .container-misión img{
+        order: 0;
+        
+    }
+    
+    .contenedor-texto-article{
+        padding: 2rem;
+    }
+
+    .article-mision{
+        order: 1;
+    }
+
+    .container-historia{
+        width: 98%;
+        grid-template-columns: auto;
+        padding: 0;
+    }
+}

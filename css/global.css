@@ -1,0 +1,148 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+
+:root{
+    --blanco: #ffffff;
+    --primeraSeccion: #121212;
+    --botonPrimeraSeccion : #fe5000;
+    --botonSegundaSeccion: #f84e00;
+    --colorLetra: #060606;
+    --colortextoSegundaSeccion : #dfdfdf;
+    --color-cards-quinta-seccion: #f1f1f1;
+    --color-tercer-boton-compra : #f84e00;
+    --colorSeccionTres: #f6f6f6;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size:6.2rem;
+}
+
+h2{
+    font-size: 3.8rem;
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+h4{
+    font-size: 2.2rem;
+}
+
+h5{
+    font-size: 1.8rem;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+
+.header{
+    background-color: var(--blanco);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    height: 13rem;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    width: 8rem;
+}
+
+.logo-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-link p{
+    color: var(--colorLetra);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.nav{
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu-link{
+    font-weight: 600;
+    margin-right: 2.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: var(--colortextoSegundaSeccion);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-menu-link:hover{
+    color: var(--botonPrimeraSeccion);
+    border-bottom: 1px solid black;
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu-item{
+    font-size: 1.8rem;
+    margin: 0 1.0rem;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav-toggle{
+    color: var(--naranja-letra);
+    background: none;
+    border: none;
+    font-size: 4rem;
+    display: none;
+}
+
+.seleccionado{
+    color: var(--colorLetra);
+}
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 1.2rem;
+    width: 100%;
+    margin-top: 5rem;
+    background-color: var(--primeraSeccion);
+    color: var(--blanco);
+    margin: 0;
+}
+footer h4 ,h3{
+    margin-top: 2rem;
+    margin-bottom: 0;
+}

@@ -1,0 +1,129 @@
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    overflow: auto;
+}
+
+
+.section-menu-grid{
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    padding: 9rem 4rem;
+    grid-template-columns: auto 80rem;
+    background-color: var(--colorSeccionTres);
+    align-items: center;
+    column-gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.menu-grid-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-grid-img img{
+    width: 60rem;
+    border-radius: 30px;
+}
+
+.section-div-icons-menu{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.capa-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.capa-img:hover{
+    background-color: white;
+
+}
+
+
+.section-div-icons-menu img{
+    text-align: center;
+    width: 3rem;
+    filter: invert(1);
+}
+
+.section-div-icons-menu img:hover{
+    filter: invert(0);
+}
+
+.menu-grid-texto{
+    width: 100%;
+}
+
+.menu-grid-texto h2{
+    font-size: 4rem;
+    text-align: start;
+    font-weight: 900;
+    line-height: 7rem;
+}
+
+.menu-grid-texto p{
+    color: rgb(185, 185, 185);
+    font-size: 1.9rem;
+    line-height: 4rem;
+}
+
+.container-menu-button{
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.boton-bajar-menu{
+    display: block;
+    background-color: var(--botonSegundaSeccion);
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 2rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 4rem;
+    font-weight: 600;
+}
+
+.boton-bajar-menu:hover{
+    background-color: white;
+    color: black;
+}
+
+.boton-carrito{
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 2rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 4rem;
+    font-weight: 600;
+}
+
+.boton-carrito:hover{
+    background-color: white;
+    color: black;
+}
+
+
+footer{
+    margin: 0;
+    position: relative;
+}

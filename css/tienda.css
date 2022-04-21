@@ -1,0 +1,138 @@
+main h1{
+    text-align: center;
+}
+
+.carrito-container{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.productos-carrito{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: flex-start;
+}
+
+.articulo-carrito{
+    background-color: var(--color-cards-quinta-seccion);
+    width: 20rem;
+    height: 36rem;
+    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-right: 4rem;
+}
+
+.container-img-carrito img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.articulo-carrito p{
+    font-size: 1.4rem;
+}
+
+.articulo-carrito button{
+    margin-top: 1rem;
+    background-color: var(--botonPrimeraSeccion);
+    border: none;
+    width: 15rem;
+    padding: 1.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.resultadoDelCarrito{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.prueba{
+    display: flex;
+}
+
+.prueba img{
+    width: 10rem;
+}
+
+.encabezados{
+    width: 90%;
+    margin: 4rem 0 0 0;
+}
+
+table{
+    width: 90%;
+    margin: 2rem 0 0 0;
+}
+
+.borrar-dato{
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 1rem;
+    border-radius: 40%;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.titlee{
+    width: 15rem;
+}
+
+.imgg{
+    width: 20rem;
+    margin-right: 2rem;
+}
+
+.pricee{
+    width: 20rem;
+}
+
+.contenedor-buttons{
+    width: 90%;
+    text-align: center;
+    display: none;
+}
+
+.botton-reset{
+    padding: 2rem;
+    background-color: var(--botonPrimeraSeccion);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 20rem;
+    margin-bottom: 3rem;
+}
+
+.botton-pagar{
+    padding: 1.7rem;
+    background-color: var(--blanco);
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 20rem;
+}
+
+.alerta-pago{
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 3rem;
+    color: white;
+    background-color: #48FCA8;
+    font-weight: 700;
+}
+
+th{
+    width: auto;
+}

@@ -1,0 +1,68 @@
+main{
+    padding: 2rem;
+}
+
+main h1{
+    text-align: center;
+}
+
+.container-misión{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 17rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 4rem;
+    background-color: var(--colorSeccionTres);
+    padding: 0 0 0 2rem;
+    border-radius: 30px;
+}
+
+.container-misión img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.article-mision h3{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.article-mision p{
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.container-historia{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 17rem;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 4rem;
+    background-color: var(--primeraSeccion);
+    padding: 0 2rem 0 0;
+    border-radius: 30px;
+    color: var(--blanco);
+}
+
+.container-historia img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+
+.article-historia h3{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.article-historia p{
+    font-size: 2rem;
+    line-height: 4rem;
+}

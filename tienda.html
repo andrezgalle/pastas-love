@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta's</title>
+    <link rel="icon" href="./assets/icons/pasta.png">
+    <script src="https://kit.fontawesome.com/c9043be8ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/globalmobile.css">
+    <link rel="stylesheet" href="./css/tienda.css">
+    <link rel="stylesheet" href="./css/tiendaMobile.css">
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-link">
+                <a href="./index.html">
+                    <img src="./assets/icons/pasta.png" class="logo" alt="logo-programador">
+                </a>
+                <p>Pasta's</p>
+            </div>
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="./index.html" class="nav-menu-link">Inicio</a></li>
+                <li class="nav-menu-item"><a href="./menu.html" class="nav-menu-link">Menú</a></li>
+                <li class="nav-menu-item"><a href="./tienda.html" class="nav-menu-link seleccionado">Tienda</a></li>
+                <li class="nav-menu-item"><a href="./sobreNosotros.html" class="nav-menu-link">Sobre Nosotros</a></li>
+                <li class="nav-menu-item"><a href="./contacto.html" class="nav-menu-link ">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="carrito-container">
+            <section class="productos-carrito lista">
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/ensalada1.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Ensalada Cesar</h3>
+                    <p>precio: $<span>12</span></p>
+                    <button type="button" class="button-carro" data-id="1">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/ensalada2.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Ensalada Italiana</h3>
+                    <p>precio: $<span>14</span></p>
+                    <button type="button" class="button-carro" data-id="2">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/lassaña.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Lassaña Francesa</h3>
+                    <p>precio: $<span>18</span></p>
+                    <button type="button" class="button-carro" data-id="3">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/pescado.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Pescado Parmesano</h3>
+                    <p>precio: $<span>14</span></p>
+                    <button type="button" class="button-carro" data-id="4">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/spaguetti1.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Trennete Al Pesto</h3>
+                    <p>precio: $<span>16</span></p>
+                    <button type="button" class="button-carro" data-id="5">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/spaguetti2.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Spaguetti Pansotti</h3>
+                    <p>precio: $<span>16</span></p>
+                    <button type="button" class="button-carro" data-id="6">Agregar</button>
+                </article>
+                
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/spaguetti3.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Fetuccini Pasta</h3>
+                    <p>precio: $<span>10</span></p>
+                    <button type="button" class="button-carro" data-id="7">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/spaguetti4.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Vermicelli Pasta</h3>
+                    <p>precio: $<span>14</span></p>
+                    <button type="button" class="button-carro" data-id="8">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/spaguetti5.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Pappar</h3>
+                    <p>precio: $<span>12</span></p>
+                    <button type="button" class="button-carro" data-id="9">Agregar</button>
+                </article>
+
+                <article class="articulo-carrito">
+                    <div class="container-img-carrito">
+                        <img src="./assets/img/spaguetti6.png" alt="ensalada-1-carrito">
+                    </div>
+                    <h3>Bucatini</h3>
+                    <p>precio: $<span>20</span></p>
+                    <button type="button" class="button-carro" data-id="10">Agregar</button>
+                </article>
+            </section>
+
+            <section class="resultado-carrito">
+                <h3 class="encabezado-resultado">Aún no tiene productos agregados al carrito</h3>
+                <table class="encabezados">
+                    <tr>
+                        <th>Imagen</th>                  
+                        <th>Nombre</th>
+                        <th>precio</th>
+                        <th>cantidad</th>
+                      </tr>
+                </table>
+                <table class="tabla-de-resultados">
+                </table>
+                <div class="respuesta"></div>
+                <div class="contenedor-buttons">
+                    <button class="botton-reset" type="button">Limpiar Carrito</button>
+                    <button class="botton-pagar" type="button">Pagar</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Todos los Derechos Reservados &copy;</h3>
+        <h4>Andrés Gallego Tovar</h4>
+    </footer>
+
+    <script src="./js/animacion.js"></script>
+    <script src="./js/tienda.js"></script>
+</body>
+</html>
